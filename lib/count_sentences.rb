@@ -4,5 +4,8 @@
 class String
   def count_sentences
     # code goes here
+    self.scan(/[^\.\!\?]+[\.?|\?|\!?]/).length
+    ##get an array of sentences (matches)
+    ##calculate the length
   end
 end
